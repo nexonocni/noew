@@ -1,0 +1,154 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+.cf:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#header{
+    background-image: url(images/bar.png);
+    background-repeat: repeat;
+    overflow: hidden;
+    border-bottom: 3px solid #000;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#logo{
+    float: left;
+}
+
+#nav{
+    float: right;
+}
+
+#nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#nav ul li{
+    float: left;
+}
+
+#nav ul li a{
+    display: block;
+    padding: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+#nav ul li a:link,
+#nav ul li a:visited{
+    color: #FFF;
+    transition: 1s all ease;
+    text-decoration: none;
+}
+
+#nav ul li a:hover,
+#nav ul li a:active{
+    color:#FFF;
+    background:#A2631d;
+    text-decoration: none;
+}
+
+#hero{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#herotext{
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    color: #FFF;
+    top: 115px;
+    left: 50px;
+    text-transform: uppercase;
+    height: 80px;
+    padding: 20px 10px 10px 10px ;
+    
+}
+#herotext span{
+    font-weight: normal;
+    margin:0;
+    font-size:28px;
+    padding: 0;
+}
+#herotext h1{
+    margin:0;
+    padding: 0;
+    font-size:30px;
+}
+
+#pic{
+    float:left;
+    margin-right:30px;
+}
+#pic:nth-of-type(3){
+    float:right;
+    margin-right:0;
+}
+#pic p{
+    background-image:url(images/bar.png);
+    background-repeat: repeat;
+    border-bottom: 3px solid #000;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    color:#FFF;
+    font-size: 20px;
+    margin: 0;
+}
+
+#pic a:link p,
+#pic a:visited p{
+    color:#FFF;
+    transition: 0.5s all ease;
+}
+#pic a:hover p,
+#pic a:active p{
+    background:#A2631d;
+}
+
+#pic a:link,#pic a:visited,
+#pic a:hover,#pic a:active{
+    text-decoration: none;
+}
+
+#footer{
+    background: #164e66;
+    margin-top:20px;
+    color:#FFF;
+    
+    
+}
+#logofooter{
+    float:left;
+}
+
+#textone, #texttwo{
+    width:180px;
+    float: right;
+    padding:10px;
+    margin-right: 20px;
+}
+#footer h3{
+    color:
+}
+.copyright{
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #FFF;
+}
