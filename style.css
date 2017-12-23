@@ -131,18 +131,21 @@ body {
     background: #164e66;
     margin-top:20px;
     color:#FFF;
+   
     
     
 }
 #logofooter{
     float:left;
+    margin:0;
+    padding: 0;
 }
 
 #textone, #texttwo{
-    width:180px;
+    width:200px;
     float: right;
-    padding:10px;
     margin-right: 20px;
+    padding: 10px;
 }
 #footer h3{
     color:
@@ -151,4 +154,6 @@ body {
     text-align: center;
     padding: 10px;
     border-top: 2px solid #FFF;
+    width:900px;
+    margin-left:20px;
 }
